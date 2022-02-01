@@ -1,8 +1,8 @@
-let number = document.getElementById("test");
+let number = document.getElementById("input-1");
 let count = 0
 
 function addNumber() {
     count += 1
-    number.innerText = count;
+    number.value = count;
 
 }
